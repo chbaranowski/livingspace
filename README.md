@@ -1,7 +1,7 @@
 Living Space
 ------------
 
-Living Space is a simple web application based on the grails and bootstrap.
+Living Space is a simple web application based on grails and bootstrap.
 The application is used to bring people together who are searching for apartment in constance.
 
 Run the application
