@@ -16,7 +16,7 @@
                 <g:each in="${publicSignerList}" status="index" var="signer">
                     <tr>
                         <td id="signer-name-${index}">
-                            <i class=" icon-pencil"></i>
+                            <i class="icon-ok-sign"></i>
                             ${fieldValue(bean: signer, field: "name")}
                         </td>
                     </tr>
@@ -46,7 +46,7 @@
                 <g:each in="${publicSupporterList}" status="index" var="supporter">
                     <tr>
                         <td id="supporter-name-${index}">
-                            <i class=" icon-pencil"></i>
+                            <i class="icon-ok-sign"></i>
                             ${fieldValue(bean: supporter, field: "name")}
                         </td>
                     </tr>
