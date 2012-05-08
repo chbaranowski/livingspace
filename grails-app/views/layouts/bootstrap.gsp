@@ -10,6 +10,7 @@
     <title><g:layoutTitle default="Living Space"/></title>
     <link rel="stylesheet" href="${resource(dir: 'css', file: 'bootstrap.css')}" type="text/css">
     <link rel="stylesheet" href="${resource(dir: 'css', file: 'bootstrap-responsive.css')}" type="text/css">
+    <link rel="stylesheet" href="${resource(dir: 'css', file: 'application.css')}" type="text/css">
     <r:require module="jquery"/>
     <g:layoutHead/>
     <r:layoutResources/>
@@ -17,9 +18,9 @@
 
 <body>
 
-<div class="navbar">
+<div class="navbar navbar-fixed-top">
     <div class="navbar-inner">
-        <div class="container">
+        <div class="container-fluid">
             <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
@@ -28,7 +29,8 @@
             <g:link controller="index" action="index" class="brand">KN Wohnraum</g:link>
             <div class="nav-collapse">
                 <ul class="nav">
-                    <li><g:link controller="index" action="signers">Unterzeichner & Unterstützer</g:link></li>
+                    <li><g:link controller="index"
+                                action="signers">Unterzeichner & Unterstützer</g:link></li>
                     <li><g:link controller="index" action="impressum">Impressum</g:link></li>
                 </ul>
             </div>
@@ -38,13 +40,10 @@
 
 <div class="container-fluid">
     <div class="row-fluid">
-        <div class="span12">
-            <div class="row-fluid">
-                <g:layoutBody/>
-            </div>
-        </div>
+        <g:layoutBody/>
     </div>
 </div>
+
 <g:javascript library="bootstrap"/>
 <g:javascript library="application"/>
 <r:layoutResources/>
