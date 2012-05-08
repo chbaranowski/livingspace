@@ -27,7 +27,7 @@
                             ${fieldValue(bean: signer, field: "description")}
                         </td>
                         <td id="signer-numberOfChildren-${index}">
-                            <g:if test="numberOfChildren == 0">
+                            <g:if test="${signer.numberOfChildren == 0}">
                                 Keine Angabe
                             </g:if>
                             <g:else>
