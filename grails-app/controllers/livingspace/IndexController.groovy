@@ -5,9 +5,23 @@ class IndexController
 
     static layout = "bootstrap"
 
+    static allowedMethods = [
+            validateSignature: 'POST',
+            validateSupporter: 'POST',
+            sign: 'POST',
+            support: 'POST'
+    ]
+
     def index()
     {
-        getDefaultModel()
+        if (chainModel)
+        {
+            chainModel
+        }
+        else
+        {
+            getDefaultModel()
+        }
     }
 
     def validateSignature()
@@ -22,7 +36,7 @@ class IndexController
         }
         else
         {
-            render(view: 'index', model: model)
+            chain(action: 'index', model: model)
         }
     }
 
@@ -55,7 +69,7 @@ class IndexController
         }
         else
         {
-            render(view: 'index', model: model)
+            chain(action: 'index', model: model)
         }
     }
 
