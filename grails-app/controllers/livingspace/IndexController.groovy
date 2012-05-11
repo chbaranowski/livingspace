@@ -51,10 +51,17 @@ class IndexController
     def sign()
     {
         def signer = new Signer(params)
+        def model = getDefaultModel()
         if (signer.save(flush: true))
         {
-            redirect(action: "index")
+            model.createdSigner = signer
         }
+        else
+        {
+            model.tabs.signerTab.markAsActive()
+            model.signer = signer
+        }
+        chain(action: "index", model: model)
     }
 
     def validateSupporter()
@@ -84,10 +91,17 @@ class IndexController
     def support()
     {
         def support = new Supporter(params)
+        def model = getDefaultModel()
         if (support.save(flush: true))
         {
-            redirect(action: "index")
+            model.createdSupporter = support
         }
+        else
+        {
+            model.tabs.supporterTab.markAsActive()
+            model.supporter = support
+        }
+        chain(action: "index", model: model)
     }
 
     def getDefaultModel()

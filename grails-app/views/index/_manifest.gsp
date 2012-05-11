@@ -15,6 +15,26 @@
         </div>
     </g:hasErrors>
 
+    <g:if test="${createdSigner}">
+        <div class="alert alert-block alert-success fade in">
+            <h4 class="alert-heading">Unterschirft wurde erfolgreich gespeichert</h4>
+            <p>
+                Die Unterschrift wird nun von uns geprüft und in den nächsten Stunden freigeschalten. <br/>
+                Nach der Freischaltung schicken wir Dir eine E-Mail an '${createdSigner.email}'.
+            </p>
+        </div>
+    </g:if>
+
+    <g:if test="${createdSupporter}">
+        <div class="alert alert-block alert-success fade in">
+            <h4 class="alert-heading">Unterstützung wurde erfolgreich gespeichert</h4>
+            <p>
+                Die Unterstützung wird nun von uns geprüft und in den nächsten Stunden freigeschaltet. <br/>
+                Nach der Freischaltung schicken wir Dir eine E-Mail an '${createdSupporter.email}'.
+            </p>
+        </div>
+    </g:if>
+
     <h1>Wohnraum in Konstanz
         <small>für Familien und Kinder</small>
     </h1>

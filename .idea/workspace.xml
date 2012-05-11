@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="bd5337b6-4fd1-4b8c-965b-12c3fc1a8aac" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/index/_signerForm.gsp" afterPath="$PROJECT_DIR$/grails-app/views/index/_signerForm.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/index/_supporterForm.gsp" afterPath="$PROJECT_DIR$/grails-app/views/index/_supporterForm.gsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/livingspace/IndexController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/livingspace/IndexController.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/index/_manifest.gsp" afterPath="$PROJECT_DIR$/grails-app/views/index/_manifest.gsp" />
     </list>
     <ignored path="livingspace.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -64,37 +64,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.gsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/views/index/index.gsp">
+      <file leaf-file-name="_manifest.gsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/views/index/_manifest.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="24" selection-start="72" selection-end="72" vertical-scroll-proportion="-0.9574468">
+            <state line="32" column="90" selection-start="1459" selection-end="1459" vertical-scroll-proportion="-10.212766">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_signerForm.gsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/views/index/_signerForm.gsp">
+      <file leaf-file-name="Signer.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/domain/livingspace/Signer.groovy">
+          <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="73" selection-start="1078" selection-end="1457" vertical-scroll-proportion="-6.06383">
+            <state line="7" column="16" selection-start="65" selection-end="70" vertical-scroll-proportion="-2.3333333">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_supporterForm.gsp" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/grails-app/views/index/_supporterForm.gsp">
+      <file leaf-file-name="IndexController.groovy" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/grails-app/controllers/livingspace/IndexController.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="81" selection-start="1338" selection-end="1338" vertical-scroll-proportion="0.59380376">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web-app/js/application.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="20" selection-start="164" selection-end="164" vertical-scroll-proportion="0.0">
+            <state line="61" column="33" selection-start="1218" selection-end="1218" vertical-scroll-proportion="1.5123967">
               <folding />
             </state>
           </provider>
@@ -122,13 +116,13 @@
         <option value="$PROJECT_DIR$/grails-app/views/admin/index.gsp" />
         <option value="$PROJECT_DIR$/grails-app/views/index/_sidebar.gsp" />
         <option value="$PROJECT_DIR$/grails-app/views/index/signers.gsp" />
-        <option value="$PROJECT_DIR$/grails-app/views/index/_manifest.gsp" />
-        <option value="$PROJECT_DIR$/grails-app/controllers/livingspace/IndexController.groovy" />
         <option value="$PROJECT_DIR$/web-app/js/application.js" />
         <option value="$PROJECT_DIR$/grails-app/views/index/confirmSignature.gsp" />
         <option value="$PROJECT_DIR$/grails-app/views/index/confirmSupport.gsp" />
         <option value="$PROJECT_DIR$/grails-app/views/index/_signerForm.gsp" />
         <option value="$PROJECT_DIR$/grails-app/views/index/_supporterForm.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/views/index/_manifest.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/controllers/livingspace/IndexController.groovy" />
       </list>
     </option>
   </component>
@@ -454,7 +448,11 @@
       <created>1336767841389</created>
       <updated>1336767841398</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="- change HTML code style in sign form&#10;- add popover tooltips in supporter form">
+      <created>1336768187547</created>
+      <updated>1336768187547</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -547,7 +545,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="- remove close button on confirm views&#10;- add popover tooltips for sign form" />
+    <option name="LAST_COMMIT_MESSAGE" value="- change HTML code style in sign form&#10;- add popover tooltips in supporter form" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -572,6 +570,7 @@
     <MESSAGE value="change the icon for signers and change layout for signer site." />
     <MESSAGE value="- add chain in validate methods&#10;- add error message part in manifest view" />
     <MESSAGE value="- remove close button on confirm views&#10;- add popover tooltips for sign form" />
+    <MESSAGE value="- change HTML code style in sign form&#10;- add popover tooltips in supporter form" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -581,11 +580,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/grails-app/views/admin/index.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="36" selection-start="1310" selection-end="1310" vertical-scroll-proportion="-0.13597246" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/index/_sidebar.gsp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="48" column="56" selection-start="1674" selection-end="1674" vertical-scroll-proportion="-7.6595745" />
@@ -621,24 +615,9 @@
         <state line="164" column="12" selection-start="5963" selection-end="5963" vertical-scroll-proportion="-0.1989882" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/index/_manifest.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="46" selection-start="464" selection-end="464" vertical-scroll-proportion="-3.1914895" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/livingspace/IndexController.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="14" selection-start="1072" selection-end="1072" vertical-scroll-proportion="1.3884298" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/index/index.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="24" selection-start="72" selection-end="72" vertical-scroll-proportion="-0.9574468" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web-app/js/application.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="20" selection-start="164" selection-end="164" vertical-scroll-proportion="0.0">
+        <state line="8" column="20" selection-start="164" selection-end="164" vertical-scroll-proportion="0.1910828">
           <folding />
         </state>
       </provider>
@@ -667,6 +646,37 @@
     <entry file="file://$PROJECT_DIR$/grails-app/views/index/_supporterForm.gsp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="81" selection-start="1338" selection-end="1338" vertical-scroll-proportion="0.59380376">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/index/index.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="24" selection-start="72" selection-end="72" vertical-scroll-proportion="0.07745267">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/index/_manifest.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="90" selection-start="1459" selection-end="1459" vertical-scroll-proportion="-10.212766">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/livingspace/Signer.groovy">
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="16" selection-start="65" selection-end="70" vertical-scroll-proportion="-2.3333333">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/livingspace/IndexController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="33" selection-start="1218" selection-end="1218" vertical-scroll-proportion="1.5123967">
           <folding />
         </state>
       </provider>
