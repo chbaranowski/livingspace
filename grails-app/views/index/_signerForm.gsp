@@ -4,7 +4,7 @@
         <g:textField name="name" value="${signer?.name}" class="span4 popover-info"
                      data-original-title="Name muss angegeben werden."
                      data-content="Du kannst allerdings entscheiden ob der Name Deiner Familie
-                                   öffentlich auf dieser Web-Seite angezeigt werden darf."/>
+                           öffentlich auf dieser Web-Seite angezeigt werden darf."/>
     </bootstrap:controlGroup>
 
     <div class="control-group">
@@ -20,8 +20,8 @@
         <g:textField name="email" value="${signer?.email}" class="span4 popover-info"
                      data-original-title="E-Mail muss angegeben werden."
                      data-content=" Wir nutzen die E-Mail um sicherzustellen dass es nicht zu doppelten Unterschriften kommt.
-                                    Deine E-Mail wird von uns genutzt um Dich ggf. über Wohnungsprojekte der Initiative zu informieren.
-                                    Wir geben die E-Mail nicht an dritte weiter."/>
+                            Deine E-Mail wird von uns genutzt um Dich ggf. über Wohnungsprojekte der Initiative zu informieren.
+                            Wir geben die E-Mail nicht an dritte weiter."/>
     </bootstrap:controlGroup>
 
     <bootstrap:controlGroup bean="${signer}" name="numberOfChildren" label="Anzahl Kinder">
@@ -30,7 +30,7 @@
                   noSelection="[0: '- Keine Angabe -']"
                   data-original-title="Anzahl Kinder muss nicht ausgefüllt werden"
                   data-content="Die Angabe zur Anzahl der Kinder dient uns um die Wohnungsmarktsituation in Konstanz besser einschätzen zu können.
-                                Also wie viele Familien mit wie viel Personen haben keinen adäquaten Wohnraum. "/>
+                        Also wie viele Familien mit wie viel Personen haben keinen adäquaten Wohnraum. "/>
     </bootstrap:controlGroup>
 
     <bootstrap:controlGroup bean="${signer}" name="description" label="Beschreibung Wohnungssituation">
@@ -40,7 +40,7 @@
                 name="description" value="${signer?.description}"
                 data-original-title="Angaben zur Wohnungssituation sind optional."
                 data-content="Die Angaben zur Wohnungssituation dienen uns eure Situation besser einschätzen zu können.
-                Und ggf. auch direkt mit Dir Kontakt aufzunehmen."/>
+            Und ggf. auch direkt mit Dir Kontakt aufzunehmen."/>
     </bootstrap:controlGroup>
 
     <div class="control-group">
