@@ -19,7 +19,7 @@ class Supporter
 
         description blank: true, maxSize: 2048
 
-        email blank: false, email: true
+        email blank: false, email: true, unique: true
 
     }
 

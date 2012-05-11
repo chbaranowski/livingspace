@@ -27,6 +27,7 @@ class IndexController
     def validateSignature()
     {
         def signer = new Signer(params)
+        signer.email = signer.email.toLowerCase()
         def model = getDefaultModel()
         model.tabs.signerTab.markAsActive()
         model.signer = signer
@@ -67,6 +68,7 @@ class IndexController
     def validateSupporter()
     {
         def supporter = new Supporter(params)
+        supporter.email = supporter.email.toLowerCase()
         def model = getDefaultModel()
         model.tabs.supporterTab.markAsActive()
         model.supporter = supporter

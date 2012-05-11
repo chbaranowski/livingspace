@@ -19,7 +19,7 @@ class Signer
 
         name blank: false
 
-        email blank: false, email: true
+        email blank: false, email: true, unique: true
 
         description maxSize: 2048, blank: true
 

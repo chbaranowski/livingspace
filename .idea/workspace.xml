@@ -4,7 +4,8 @@
     <list default="true" id="bd5337b6-4fd1-4b8c-965b-12c3fc1a8aac" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/livingspace/IndexController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/livingspace/IndexController.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/index/_manifest.gsp" afterPath="$PROJECT_DIR$/grails-app/views/index/_manifest.gsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/domain/livingspace/Signer.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/livingspace/Signer.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/domain/livingspace/Supporter.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/livingspace/Supporter.groovy" />
     </list>
     <ignored path="livingspace.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -63,38 +64,7 @@
     <favorites_list name="livingspace" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="_manifest.gsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/views/index/_manifest.gsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="90" selection-start="1459" selection-end="1459" vertical-scroll-proportion="-10.212766">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Signer.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/domain/livingspace/Signer.groovy">
-          <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="16" selection-start="65" selection-end="70" vertical-scroll-proportion="-2.3333333">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IndexController.groovy" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/grails-app/controllers/livingspace/IndexController.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="61" column="33" selection-start="1218" selection-end="1218" vertical-scroll-proportion="1.5123967">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -107,8 +77,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/README.ME" />
-        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/grails-app/views/index/index.gsp" />
         <option value="$PROJECT_DIR$/grails-app/views/layouts/bootstrap.gsp" />
@@ -122,6 +90,8 @@
         <option value="$PROJECT_DIR$/grails-app/views/index/_signerForm.gsp" />
         <option value="$PROJECT_DIR$/grails-app/views/index/_supporterForm.gsp" />
         <option value="$PROJECT_DIR$/grails-app/views/index/_manifest.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/domain/livingspace/Supporter.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/domain/livingspace/Signer.groovy" />
         <option value="$PROJECT_DIR$/grails-app/controllers/livingspace/IndexController.groovy" />
       </list>
     </option>
@@ -452,7 +422,11 @@
       <created>1336768187547</created>
       <updated>1336768187547</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="- add error handling in save actions in index controller&#10;- add a success alert in the manifest view when the signature is saved.">
+      <created>1336769197748</created>
+      <updated>1336769197748</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -477,7 +451,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1680" height="952" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23391813" sideWeight="0.99693626" order="7" side_tool="false" content_ui="tabs" />
@@ -489,7 +463,7 @@
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Grails View" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24816176" sideWeight="0.76608187" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Grails View" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24816176" sideWeight="0.76608187" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -545,7 +519,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="- change HTML code style in sign form&#10;- add popover tooltips in supporter form" />
+    <option name="LAST_COMMIT_MESSAGE" value="- add error handling in save actions in index controller&#10;- add a success alert in the manifest view when the signature is saved." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -571,6 +545,7 @@
     <MESSAGE value="- add chain in validate methods&#10;- add error message part in manifest view" />
     <MESSAGE value="- remove close button on confirm views&#10;- add popover tooltips for sign form" />
     <MESSAGE value="- change HTML code style in sign form&#10;- add popover tooltips in supporter form" />
+    <MESSAGE value="- add error handling in save actions in index controller&#10;- add a success alert in the manifest view when the signature is saved." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -580,11 +555,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/grails-app/views/index/_sidebar.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="56" selection-start="1674" selection-end="1674" vertical-scroll-proportion="-7.6595745" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/index/signers.gsp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="33" selection-start="371" selection-end="371" vertical-scroll-proportion="0.28399312" />
@@ -664,19 +634,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/livingspace/IndexController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="70" column="35" selection-start="1446" selection-end="1446" vertical-scroll-proportion="1.7355372">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/domain/livingspace/Signer.groovy">
       <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="16" selection-start="65" selection-end="70" vertical-scroll-proportion="-2.3333333">
+        <state line="21" column="53" selection-start="294" selection-end="294" vertical-scroll-proportion="0.5403088">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/livingspace/IndexController.groovy">
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/livingspace/Supporter.groovy">
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="33" selection-start="1218" selection-end="1218" vertical-scroll-proportion="1.5123967">
+        <state line="21" column="53" selection-start="322" selection-end="322" vertical-scroll-proportion="0.5403088">
           <folding />
         </state>
       </provider>
