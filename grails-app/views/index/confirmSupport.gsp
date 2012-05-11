@@ -16,8 +16,6 @@
 
 <div class="modal" id="support-confirm-modal">
     <div class="modal-header">
-        <a href="index" class="close">x</a>
-
         <h2>Unterstützung Angaben bestätigen</h2>
     </div>
 

@@ -6,4 +6,6 @@ $(document).ready(function ()
         $(this).tab('show');
     })
 
+    $('.popover-info').popover()
+
 })

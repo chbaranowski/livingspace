@@ -15,8 +15,6 @@
 
 <div class="modal" id="sign-confirm-modal">
     <div class="modal-header">
-        <a href="index" class="close">x</a>
-
         <h2>Unterschrift Angaben bestätigen</h2>
     </div>
 
