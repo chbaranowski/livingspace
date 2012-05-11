@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="bd5337b6-4fd1-4b8c-965b-12c3fc1a8aac" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/livingspace/IndexController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/livingspace/IndexController.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/domain/livingspace/Signer.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/livingspace/Signer.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/domain/livingspace/Supporter.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/livingspace/Supporter.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/i18n/messages.properties" afterPath="$PROJECT_DIR$/grails-app/i18n/messages.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/i18n/messages_de.properties" afterPath="$PROJECT_DIR$/grails-app/i18n/messages_de.properties" />
     </list>
     <ignored path="livingspace.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -77,8 +76,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/grails-app/views/index/index.gsp" />
         <option value="$PROJECT_DIR$/grails-app/views/layouts/bootstrap.gsp" />
         <option value="$PROJECT_DIR$/web-app/css/application.css" />
         <option value="$PROJECT_DIR$/grails-app/views/admin/index.gsp" />
@@ -93,6 +90,8 @@
         <option value="$PROJECT_DIR$/grails-app/domain/livingspace/Supporter.groovy" />
         <option value="$PROJECT_DIR$/grails-app/domain/livingspace/Signer.groovy" />
         <option value="$PROJECT_DIR$/grails-app/controllers/livingspace/IndexController.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/i18n/messages_de.properties" />
+        <option value="$PROJECT_DIR$/grails-app/i18n/messages.properties" />
       </list>
     </option>
   </component>
@@ -426,7 +425,11 @@
       <created>1336769197748</created>
       <updated>1336769197748</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="- make the email field in the domain classes unique">
+      <created>1336769710162</created>
+      <updated>1336769710162</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -519,7 +522,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="- add error handling in save actions in index controller&#10;- add a success alert in the manifest view when the signature is saved." />
+    <option name="LAST_COMMIT_MESSAGE" value="- make the email field in the domain classes unique" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -546,6 +549,7 @@
     <MESSAGE value="- remove close button on confirm views&#10;- add popover tooltips for sign form" />
     <MESSAGE value="- change HTML code style in sign form&#10;- add popover tooltips in supporter form" />
     <MESSAGE value="- add error handling in save actions in index controller&#10;- add a success alert in the manifest view when the signature is saved." />
+    <MESSAGE value="- make the email field in the domain classes unique" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -555,16 +559,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/grails-app/views/index/signers.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="33" selection-start="371" selection-end="371" vertical-scroll-proportion="0.28399312" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/livingspace/SignerController.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="6" selection-start="27" selection-end="27" vertical-scroll-proportion="0.049586777" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/controllers/livingspace/SupporterController.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="6" selection-start="27" selection-end="27" vertical-scroll-proportion="0.049586777" />
@@ -641,22 +635,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/livingspace/Signer.groovy">
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="53" selection-start="294" selection-end="294" vertical-scroll-proportion="0.5403088">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/domain/livingspace/Supporter.groovy">
       <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="53" selection-start="322" selection-end="322" vertical-scroll-proportion="0.5403088">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/livingspace/Signer.groovy">
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="12" selection-start="27" selection-end="33" vertical-scroll-proportion="0.051457975">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/i18n/messages_de.properties">
+      <provider editor-type-id="ResourceBundle">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="131" selection-start="274" selection-end="274" vertical-scroll-proportion="-1.3636364">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/i18n/messages.properties">
+      <provider editor-type-id="ResourceBundle">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
