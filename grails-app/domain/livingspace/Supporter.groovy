@@ -13,6 +13,10 @@ class Supporter
 
     Boolean unlocked = false
 
+    static mapping = {
+        description type: 'text'
+    }
+
     static constraints = {
 
         name blank: false

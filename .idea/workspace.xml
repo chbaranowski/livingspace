@@ -1,67 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bd5337b6-4fd1-4b8c-965b-12c3fc1a8aac" name="Default" comment="" />
-    <list id="9d5c09e0-1a2b-40b8-8938-d78ab0ee7219" name="Failed commit: Default" comment="- change bootstrap manuel handling to grails plugin&#10;- add templates for bootstrap scaffolding see also https://github.com/robfletcher/twitter-bootstrap-scaffolding&#10;- remove unused static content from web-app&#10;- add bootstrap and fields plugins in build config as runtime dependency&#10;- add default EN messages back in property file for admin pages">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/conf/ScaffoldingResources.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/taglib/twitter/bootstrap/scaffolding/AlertsTagLib.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/taglib/twitter/bootstrap/scaffolding/FormsTagLib.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/taglib/twitter/bootstrap/scaffolding/PaginationTagLib.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/views/_fields/default/_field.gsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/scaffolding/Controller.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/scaffolding/create.gsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/scaffolding/edit.gsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/scaffolding/list.gsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/scaffolding/show.gsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/css/scaffolding.css" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/grails-app/views/layouts/main.gsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web-app/css/bootstrap-responsive.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web-app/css/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web-app/css/errors.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web-app/css/main.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web-app/css/mobile.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web-app/images/apple-touch-icon-retina.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web-app/images/apple-touch-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web-app/images/grails_logo.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web-app/images/grails_logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web-app/images/leftnav_btm.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web-app/images/leftnav_midstretch.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web-app/images/leftnav_top.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web-app/images/skin/database_add.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web-app/images/skin/database_delete.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web-app/images/skin/database_edit.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web-app/images/skin/database_save.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web-app/images/skin/database_table.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web-app/images/skin/exclamation.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web-app/images/skin/house.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web-app/images/skin/information.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web-app/images/skin/shadow.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web-app/images/skin/sorted_asc.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web-app/images/skin/sorted_desc.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web-app/images/spinner.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web-app/images/springsource.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web-app/img/glyphicons-halflings-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web-app/img/glyphicons-halflings.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web-app/img/whg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web-app/img/whg.png" afterPath="" />
+    <list default="true" id="bd5337b6-4fd1-4b8c-965b-12c3fc1a8aac" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/views/_fields/signer/description/_input.gsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/views/_fields/supporter/description/_input.gsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application.properties" afterPath="$PROJECT_DIR$/application.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/ApplicationResources.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/ApplicationResources.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/livingspace/IndexController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/livingspace/IndexController.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/i18n/messages.properties" afterPath="$PROJECT_DIR$/grails-app/i18n/messages.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/admin/index.gsp" afterPath="$PROJECT_DIR$/grails-app/views/admin/index.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/error.gsp" afterPath="$PROJECT_DIR$/grails-app/views/error.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/infos.gsp" afterPath="$PROJECT_DIR$/grails-app/views/infos.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/livingspace-grailsPlugins.iml" afterPath="$PROJECT_DIR$/livingspace-grailsPlugins.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/livingspace.iml" afterPath="$PROJECT_DIR$/livingspace.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/domain/livingspace/Signer.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/livingspace/Signer.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/domain/livingspace/Supporter.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/livingspace/Supporter.groovy" />
     </list>
     <ignored path="livingspace.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$USER_HOME$/.grails/" />
     <ignored path="target/" />
-    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="bd5337b6-4fd1-4b8c-965b-12c3fc1a8aac" time="1336857107237" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,19 +66,61 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="bootstrap.gsp" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/grails-app/views/layouts/bootstrap.gsp">
+      <file leaf-file-name="Signer.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/domain/livingspace/Signer.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="63" column="7" selection-start="2138" selection-end="2138" vertical-scroll-proportion="1.8103448">
+            <state line="11" column="22" selection-start="117" selection-end="128" vertical-scroll-proportion="-2.6444445">
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Supporter.groovy" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/grails-app/domain/livingspace/Supporter.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="5" selection-start="170" selection-end="227" vertical-scroll-proportion="0.50898206">
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_input.gsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/views/_fields/signer/description/_input.gsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="25" selection-start="0" selection-end="112" vertical-scroll-proportion="-1.9565217">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="livingspace.gsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/views/layouts/livingspace.gsp">
+      <file leaf-file-name="_input.gsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/views/_fields/supporter/description/_input.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="105" selection-start="803" selection-end="803" vertical-scroll-proportion="-0.625">
+            <state line="3" column="118" selection-start="112" selection-end="112" vertical-scroll-proportion="-1.9565217">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_signerForm.gsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/views/index/_signerForm.gsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="50" column="71" selection-start="2719" selection-end="3149" vertical-scroll-proportion="-5.87234">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_field.gsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/views/_fields/default/_field.gsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="48" selection-start="126" selection-end="134" vertical-scroll-proportion="-0.63829786">
               <folding />
             </state>
           </provider>
@@ -147,10 +139,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/grails-app/views/index/confirmSignature.gsp" />
-        <option value="$PROJECT_DIR$/grails-app/views/index/confirmSupport.gsp" />
-        <option value="$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/i18n/messages.properties" />
         <option value="$PROJECT_DIR$/grails-app/views/infos.gsp" />
         <option value="$PROJECT_DIR$/grails-app/views/_fields/default/_field.gsp" />
         <option value="$PROJECT_DIR$/grails-app/conf/ScaffoldingResources.groovy" />
@@ -163,6 +151,10 @@
         <option value="$PROJECT_DIR$/grails-app/views/layouts/livingspace.gsp" />
         <option value="$PROJECT_DIR$/grails-app/controllers/livingspace/AdminController.groovy" />
         <option value="$PROJECT_DIR$/grails-app/views/layouts/bootstrap.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/domain/livingspace/Supporter.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/domain/livingspace/Signer.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/views/_fields/signer/description/_input.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/views/_fields/supporter/description/_input.gsp" />
       </list>
     </option>
   </component>
@@ -309,6 +301,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="livingspace" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="livingspace" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="grails-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_fields" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -662,7 +676,6 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="bd5337b6-4fd1-4b8c-965b-12c3fc1a8aac" name="Default" comment="" />
-      <changelist id="9d5c09e0-1a2b-40b8-8938-d78ab0ee7219" name="Failed commit: Default" comment="- change bootstrap manuel handling to grails plugin&#10;- add templates for bootstrap scaffolding see also https://github.com/robfletcher/twitter-bootstrap-scaffolding&#10;- remove unused static content from web-app&#10;- add bootstrap and fields plugins in build config as runtime dependency&#10;- add default EN messages back in property file for admin pages" />
       <created>1334692293389</created>
       <updated>1334692293389</updated>
     </task>
@@ -754,7 +767,11 @@
       <created>1336857110061</created>
       <updated>1336857110061</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="- change bootstrap manuel handling to grails plugin&#10;- add templates for bootstrap scaffolding see also https://github.com/robfletcher/twitter-bootstrap-scaffolding&#10;- remove unused static content from web-app&#10;- add bootstrap and fields plugins in build config as runtime dependency&#10;- add default EN messages back in property file for admin pages">
+      <created>1336857116883</created>
+      <updated>1336857116883</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -779,10 +796,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1680" height="952" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32982457" sideWeight="0.0" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32982457" sideWeight="0.0" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -802,7 +819,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32965687" sideWeight="0.21871345" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24754901" sideWeight="0.6725146" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24754901" sideWeight="0.67017543" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32838285" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -888,41 +905,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="17" selection-start="140" selection-end="140" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="20" selection-start="277" selection-end="277" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/conf/spring/resources.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/conf/ApplicationResources.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="5" selection-start="76" selection-end="76" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="29" selection-start="1699" selection-end="1699" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/conf/ScaffoldingResources.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="1" selection-start="111" selection-end="111" vertical-scroll-proportion="0.0">
@@ -979,16 +961,64 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/layouts/livingspace.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="105" selection-start="803" selection-end="803" vertical-scroll-proportion="-0.625">
+        <state line="17" column="105" selection-start="803" selection-end="803" vertical-scroll-proportion="0.028735632">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/layouts/bootstrap.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="7" selection-start="2138" selection-end="2138" vertical-scroll-proportion="1.8103448">
+        <state line="63" column="7" selection-start="2138" selection-end="2138" vertical-scroll-proportion="-39.375">
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/_fields/default/_field.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="48" selection-start="126" selection-end="134" vertical-scroll-proportion="-0.63829786">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/index/_signerForm.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="71" selection-start="2719" selection-end="3149" vertical-scroll-proportion="-5.87234">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/_fields/signer/description/_input.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="25" selection-start="0" selection-end="112" vertical-scroll-proportion="-1.9565217">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/_fields/supporter/description/_input.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="118" selection-start="112" selection-end="112" vertical-scroll-proportion="-1.9565217">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/livingspace/Signer.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="22" selection-start="117" selection-end="128" vertical-scroll-proportion="-2.6444445">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/livingspace/Supporter.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="5" selection-start="170" selection-end="227" vertical-scroll-proportion="0.50898206">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
       </provider>
     </entry>
   </component>
