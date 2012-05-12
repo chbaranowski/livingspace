@@ -1,8 +1,10 @@
 <%@ page import="livingspace.Signer" %>
 <body>
 
-<g:render template="manifest"/>
-<g:render template="sidebar"/>
+<div class="showWhenJsActive" style="display: none;">
+    <g:render template="manifest"/>
+    <g:render template="sidebar"/>
+</div>
 
 <script type="text/javascript">
     $('#support-confirm-modal').ready(function ()

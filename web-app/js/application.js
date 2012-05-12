@@ -9,6 +9,7 @@ $(document).ready(function ()
         event.preventDefault();
         $(this).tab('show');
     })
+    $('.showWhenJsActive').show()
     $('.popover-info').popover()
 })
 

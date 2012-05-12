@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bd5337b6-4fd1-4b8c-965b-12c3fc1a8aac" name="Default" comment="- facebook integration for get the email and name data from fb">
+    <list default="true" id="bd5337b6-4fd1-4b8c-965b-12c3fc1a8aac" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/index/_supporterForm.gsp" afterPath="$PROJECT_DIR$/grails-app/views/index/_supporterForm.gsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/index/confirmSignature.gsp" afterPath="$PROJECT_DIR$/grails-app/views/index/confirmSignature.gsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/index/confirmSupport.gsp" afterPath="$PROJECT_DIR$/grails-app/views/index/confirmSupport.gsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/js/application.js" afterPath="$PROJECT_DIR$/web-app/js/application.js" />
     </list>
     <ignored path="livingspace.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -72,10 +74,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_supporterForm.gsp" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="_supporterForm.gsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/views/index/_supporterForm.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="52" selection-start="2075" selection-end="2075" vertical-scroll-proportion="0.56790125">
+            <state line="35" column="52" selection-start="2075" selection-end="2075" vertical-scroll-proportion="-5.87234">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="confirmSignature.gsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/views/index/confirmSignature.gsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="0" selection-start="48" selection-end="101" vertical-scroll-proportion="-0.9574468">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="confirmSupport.gsp" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/grails-app/views/index/confirmSupport.gsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="4" selection-start="142" selection-end="142" vertical-scroll-proportion="0.1572327">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web-app/css/application.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="1" selection-start="30" selection-end="30" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -102,8 +131,10 @@
       <file leaf-file-name="application.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web-app/js/application.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="24" selection-start="11" selection-end="11" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="11" column="24" selection-start="200" selection-end="216" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -130,10 +161,7 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/grails-app/views/index/_sidebar.gsp" />
         <option value="$PROJECT_DIR$/grails-app/views/index/signers.gsp" />
-        <option value="$PROJECT_DIR$/grails-app/views/index/confirmSignature.gsp" />
-        <option value="$PROJECT_DIR$/grails-app/views/index/confirmSupport.gsp" />
         <option value="$PROJECT_DIR$/grails-app/domain/livingspace/Supporter.groovy" />
         <option value="$PROJECT_DIR$/grails-app/domain/livingspace/Signer.groovy" />
         <option value="$PROJECT_DIR$/grails-app/controllers/livingspace/IndexController.groovy" />
@@ -141,11 +169,14 @@
         <option value="$PROJECT_DIR$/grails-app/i18n/messages.properties" />
         <option value="$PROJECT_DIR$/web-app/facebookChannel.html" />
         <option value="$PROJECT_DIR$/grails-app/views/layouts/bootstrap.gsp" />
-        <option value="$PROJECT_DIR$/web-app/js/application.js" />
         <option value="$PROJECT_DIR$/grails-app/views/index/_manifest.gsp" />
         <option value="$PROJECT_DIR$/grails-app/views/index/_signerForm.gsp" />
         <option value="$PROJECT_DIR$/web-app/js/facebook.js" />
         <option value="$PROJECT_DIR$/grails-app/views/index/_supporterForm.gsp" />
+        <option value="$PROJECT_DIR$/web-app/js/application.js" />
+        <option value="$PROJECT_DIR$/web-app/css/application.css" />
+        <option value="$PROJECT_DIR$/grails-app/views/index/confirmSignature.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/views/index/confirmSupport.gsp" />
       </list>
     </option>
   </component>
@@ -488,7 +519,11 @@
       <created>1336815517195</created>
       <updated>1336815517195</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="- add popover info to description in supporter form.">
+      <created>1336815791085</created>
+      <updated>1336815791085</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -581,7 +616,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="- facebook integration for get the email and name data from fb" />
+    <option name="LAST_COMMIT_MESSAGE" value="- add popover info to description in supporter form." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -610,6 +645,7 @@
     <MESSAGE value="- add error handling in save actions in index controller&#10;- add a success alert in the manifest view when the signature is saved." />
     <MESSAGE value="- make the email field in the domain classes unique" />
     <MESSAGE value="- facebook integration for get the email and name data from fb" />
+    <MESSAGE value="- add popover info to description in supporter form." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -619,24 +655,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/grails-app/views/index/index.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="24" selection-start="72" selection-end="72" vertical-scroll-proportion="0.07745267" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/livingspace/IndexController.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="35" selection-start="1446" selection-end="1446" vertical-scroll-proportion="1.7355372" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/livingspace/Supporter.groovy">
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="53" selection-start="322" selection-end="322" vertical-scroll-proportion="0.5403088" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/domain/livingspace/Signer.groovy">
       <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
         <state />
@@ -689,13 +707,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web-app/js/application.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="24" selection-start="11" selection-end="11" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/index/_manifest.gsp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="64" column="0" selection-start="2387" selection-end="2387" vertical-scroll-proportion="-6.787234">
@@ -726,7 +737,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/index/_supporterForm.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="52" selection-start="2075" selection-end="2075" vertical-scroll-proportion="0.56790125">
+        <state line="35" column="52" selection-start="2075" selection-end="2075" vertical-scroll-proportion="-5.87234">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-app/js/application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="24" selection-start="200" selection-end="216" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-app/css/application.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="1" selection-start="30" selection-end="30" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/index/confirmSignature.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="48" selection-end="101" vertical-scroll-proportion="-0.9574468">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/index/confirmSupport.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="4" selection-start="142" selection-end="142" vertical-scroll-proportion="0.1572327">
           <folding />
         </state>
       </provider>
