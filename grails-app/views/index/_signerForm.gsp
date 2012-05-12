@@ -1,7 +1,15 @@
 <g:form action="validateSignature" class="form-horizontal" method="post">
 
+    <div class="control-group fb-login" style="display: none;">
+        <div class="controls">
+            <fb:login-button class="popover-info" data-original-title="Tippen sparen Daten aus Facebook Profile"
+                              data-content="Wenn Du möchtest kannst Du Name und E-Mail für die Unterschrift aus deinem Facebook Profile übernehmen.">
+                Daten übernehmen</fb:login-button>
+        </div>
+    </div>
+
     <bootstrap:controlGroup bean="${signer}" name="name" label="Familienname*">
-        <g:textField name="name" value="${signer?.name}" class="span4 popover-info"
+        <g:textField id="signerName" name="name" value="${signer?.name}" class="span4 popover-info"
                      data-original-title="Name muss angegeben werden."
                      data-content="Du kannst allerdings entscheiden ob der Name Deiner Familie
                            öffentlich auf dieser Web-Seite angezeigt werden darf."/>
@@ -17,7 +25,7 @@
     </div>
 
     <bootstrap:controlGroup bean="${signer}" name="email" label="E-Mail*">
-        <g:textField name="email" value="${signer?.email}" class="span4 popover-info"
+        <g:textField id="signerEmail" name="email" value="${signer?.email}" class="span4 popover-info"
                      data-original-title="E-Mail muss angegeben werden."
                      data-content=" Wir nutzen die E-Mail um sicherzustellen dass es nicht zu doppelten Unterschriften kommt.
                             Deine E-Mail wird von uns genutzt um Dich ggf. über Wohnungsprojekte der Initiative zu informieren.

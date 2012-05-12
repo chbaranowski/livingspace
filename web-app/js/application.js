@@ -1,11 +1,14 @@
+/* * * *
+ *
+ * UI settings bootstrap
+ */
 $(document).ready(function ()
 {
-    $('#sign-tabs a').click(function (e)
+    $('#sign-tabs a').click(function (event)
     {
-        e.preventDefault();
+        event.preventDefault();
         $(this).tab('show');
     })
-
     $('.popover-info').popover()
-
 })
+

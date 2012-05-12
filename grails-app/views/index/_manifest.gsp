@@ -3,6 +3,7 @@
     <g:hasErrors>
         <div class="alert alert-block alert-error fade in">
             <h4 class="alert-heading">Beim Speichern der Unterschrift sind Fehler aufgetretten.</h4>
+
             <p>Die folgenden Angaben müssen verbessert werden:</p>
             <ul>
                 <g:eachError bean="${signer}">
@@ -18,6 +19,7 @@
     <g:if test="${createdSigner}">
         <div class="alert alert-block alert-success fade in">
             <h4 class="alert-heading">Unterschirft wurde erfolgreich gespeichert</h4>
+
             <p>
                 Die Unterschrift wird nun von uns geprüft und in den nächsten Stunden freigeschalten. <br/>
                 Nach der Freischaltung schicken wir Dir eine E-Mail an '${createdSigner.email}'.
@@ -28,6 +30,7 @@
     <g:if test="${createdSupporter}">
         <div class="alert alert-block alert-success fade in">
             <h4 class="alert-heading">Unterstützung wurde erfolgreich gespeichert</h4>
+
             <p>
                 Die Unterstützung wird nun von uns geprüft und in den nächsten Stunden freigeschaltet. <br/>
                 Nach der Freischaltung schicken wir Dir eine E-Mail an '${createdSupporter.email}'.
@@ -58,6 +61,10 @@
 
         <h3>Basisdemokratische Entscheidungsfindung bei stadtplanerischen Belangen!</h3>
     </div>
+    <script type="text/javascript" src="js/facebook.js"></script>
+
+
+
 
     <g:render template="tabs"></g:render>
 
