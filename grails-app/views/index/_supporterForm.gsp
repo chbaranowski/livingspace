@@ -33,7 +33,12 @@
     </bootstrap:controlGroup>
 
     <bootstrap:controlGroup bean="${supporter}" name="description" label="Beschreibung">
-        <g:textArea class="input-xlarge" cols="3" rows="5" name="description" value="${supporter?.description}"/>
+        <g:textArea class="input-xlarge popover-info" cols="3" rows="5" name="description" value="${supporter?.description}"
+                    data-original-title="Angaben ist optional."
+                    data-content="Hier kannst Du beschrieben warum Du die Initiative unterstützen möchtest.
+                                  Die Information wird intern bei uns ausgewertet und dient dazu mit Unterstützern
+                                  evtl. direkten Kontakt aufzunehmen."
+        />
     </bootstrap:controlGroup>
 
     <div class="control-group">
