@@ -3,7 +3,7 @@ package livingspace
 class IndexController
 {
 
-    static layout = "bootstrap"
+    static layout = "livingspace"
 
     static allowedMethods = [
             validateSignature: 'POST',

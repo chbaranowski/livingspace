@@ -10,7 +10,7 @@ class UrlMappings
         }
 
         "/"         (controller: "index")
-        "/grails"   (view: "/infos")
+        "/info"     (view: "/infos")
         "500"       (view: '/error')
 
     }

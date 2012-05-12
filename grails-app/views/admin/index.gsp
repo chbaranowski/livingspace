@@ -12,6 +12,7 @@
                     <th>E-Mail</th>
                     <th>Beschreibung der Situation</th>
                     <th>Anzahl Kinder</th>
+                    <th>&nbsp;</th>
                 </tr>
                 </thead>
                 <tbody>
@@ -51,6 +52,7 @@
                     <th>Name</th>
                     <th>E-Mail</th>
                     <th>Beschreibung</th>
+                    <th>&nbsp;</th>
                 </tr>
                 </thead>
                 <tbody>
