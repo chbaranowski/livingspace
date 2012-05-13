@@ -21,8 +21,7 @@
             <h4 class="alert-heading">Unterschirft wurde erfolgreich gespeichert</h4>
 
             <p>
-                Die Unterschrift wird nun von uns geprüft und in den nächsten Stunden freigeschalten. <br/>
-                Nach der Freischaltung schicken wir Dir eine E-Mail an '${createdSigner.email}'.
+                Die Unterschrift wird nun von uns geprüft und in den nächsten Stunden freigeschalten.
             </p>
         </div>
     </g:if>
@@ -32,8 +31,7 @@
             <h4 class="alert-heading">Unterstützung wurde erfolgreich gespeichert</h4>
 
             <p>
-                Die Unterstützung wird nun von uns geprüft und in den nächsten Stunden freigeschaltet. <br/>
-                Nach der Freischaltung schicken wir Dir eine E-Mail an '${createdSupporter.email}'.
+                Die Unterstützung wird nun von uns geprüft und in den nächsten Stunden freigeschaltet.
             </p>
         </div>
     </g:if>

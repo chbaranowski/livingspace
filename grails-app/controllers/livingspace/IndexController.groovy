@@ -12,6 +12,8 @@ class IndexController
             support: 'POST'
     ]
 
+    def notificationService
+
     def index()
     {
         if (chainModel)
@@ -56,6 +58,7 @@ class IndexController
         if (signer.save(flush: true))
         {
             model.createdSigner = signer
+            notificationService.notifyNewSigner(signer)
         }
         else
         {
@@ -97,6 +100,7 @@ class IndexController
         if (support.save(flush: true))
         {
             model.createdSupporter = support
+            notificationService.notifyNewSupporter(support)
         }
         else
         {

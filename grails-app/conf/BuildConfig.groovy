@@ -4,7 +4,7 @@ grails.project.test.class.dir = "target/test-classes"
 grails.project.test.reports.dir = "target/test-reports"
 grails.project.target.level = 1.6
 grails.project.source.level = 1.6
-//grails.project.war.file = "target/${appName}-${appVersion}.war"
+grails.project.war.file = "target/${appName}-${appVersion}.war"
 
 grails.project.dependency.resolution = {
     // inherit Grails' default dependencies
@@ -42,7 +42,7 @@ grails.project.dependency.resolution = {
         runtime ":resources:1.1.6"
         runtime ":twitter-bootstrap:2.0.2.25"
         runtime ":fields:1.1"
-
+        runtime ":mail:1.0"
         // Uncomment these (or add new ones) to enable additional resources capabilities
         //runtime ":zipped-resources:1.0"
         //runtime ":cached-resources:1.0"
