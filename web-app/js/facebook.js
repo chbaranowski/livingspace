@@ -34,10 +34,22 @@ window.fbAsyncInit = function ()
             {
                 if (me.name)
                 {
-                    $('#signerEmail').val(me.email)
-                    $('#signerName').val(me.name)
-                    $('#supporterEmail').val(me.email)
-                    $('#supporterName').val(me.name)
+                    if ($('#signerEmail').val().length === 0)
+                    {
+                        $('#signerEmail').val(me.email)
+                    }
+                    if ($('#signerName').val().length === 0)
+                    {
+                        $('#signerName').val(me.name)
+                    }
+                    if ($('#supporterEmail').val().length === 0)
+                    {
+                        $('#supporterEmail').val(me.email)
+                    }
+                    if ($('#supporterName').val().length === 0)
+                    {
+                        $('#supporterName').val(me.name)
+                    }
                 }
             })
             $('.fb-login').hide()
