@@ -4,6 +4,27 @@
 
     <div class="span12">
         <div class="row-fluid">
+
+            <g:if test="${unlockedSigner}">
+                <div class="alert alert-block alert-success fade in">
+                    <h4 class="alert-heading">Unterschirft wurde freigeschaltet</h4>
+
+                    <p>
+                        Die Unterschrift mit dem Familiennamen ${unlockedSigner.name} ist freigeschalten.
+                    </p>
+                </div>
+            </g:if>
+
+            <g:if test="${unlockedSupporter}">
+                <div class="alert alert-block alert-success fade in">
+                    <h4 class="alert-heading">Unterstützung wurde freigeschaltet</h4>
+
+                    <p>
+                        Die Unterstützung mit dem Namen ${unlockedSupporter.name} ist freigeschaltet.
+                    </p>
+                </div>
+            </g:if>
+
             <h2>Unterzeichner Freischalten</h2>
             <table class="table">
                 <thead>

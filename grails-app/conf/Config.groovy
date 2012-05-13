@@ -95,3 +95,23 @@ log4j = {
 }
 
 grails.config.locations = [LocalConfig]
+
+grails.plugins.springsecurity.userLookup.userDomainClassName = 'livingspace.User'
+grails.plugins.springsecurity.userLookup.authorityJoinClassName = 'livingspace.UserRole'
+grails.plugins.springsecurity.authority.className = 'livingspace.Role'
+grails.plugins.springsecurity.securityConfigType = "InterceptUrlMap"
+grails.plugins.springsecurity.interceptUrlMap = [
+        '/user/**':      ['ROLE_ADMIN'],
+        '/signer/**':    ['ROLE_ADMIN'],
+        '/admin/**':     ['ROLE_ADMIN'],
+        '/supporter/**': ['ROLE_ADMIN'],
+        '/info/**':      ['ROLE_ADMIN'],
+        '/js/**':        ['IS_AUTHENTICATED_ANONYMOUSLY'],
+        '/css/**':       ['IS_AUTHENTICATED_ANONYMOUSLY'],
+        '/images/**':    ['IS_AUTHENTICATED_ANONYMOUSLY'],
+        '/*':            ['IS_AUTHENTICATED_ANONYMOUSLY'],
+        '/index/**':     ['IS_AUTHENTICATED_ANONYMOUSLY'],
+        '/login/**':     ['IS_AUTHENTICATED_ANONYMOUSLY'],
+        '/logout/**':    ['IS_AUTHENTICATED_ANONYMOUSLY']
+]
+

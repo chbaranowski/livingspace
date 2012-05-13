@@ -44,10 +44,12 @@
                     <g:each var="c"
                             in="${grailsApplication.controllerClasses
                                     .sort { it.fullName }
-                                    .findAll { it.logicalPropertyName != 'index' }}">
+                                    .findAll { it.logicalPropertyName != 'index' && !it.fullName.contains('springsecurity')}}">
                         <li<%=c.logicalPropertyName == controllerName ? ' class="active"' : ''%>><g:link
-                                controller="${c.logicalPropertyName}">${c.naturalName}</g:link></li>
+                                controller="${c.logicalPropertyName}">${c.logicalPropertyName}</g:link></li>
                     </g:each>
+                    <li<%='user' == controllerName ? ' class="active"' : ''%>><g:link
+                            controller="user">users</g:link></li>
                 </ul>
             </div>
         </div>

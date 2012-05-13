@@ -18,7 +18,7 @@ class AdminController
         def signer = Signer.get(params.id)
         signer.unlocked = true
         signer.save(flush: true)
-        redirect(action: 'index')
+        chain(action: 'index', model: [unlockedSigner: signer])
     }
 
     def unlockSupporter()
@@ -26,7 +26,7 @@ class AdminController
         def supporter = Supporter.get(params.id)
         supporter.unlocked = true
         supporter.save(flush: true)
-        redirect(action: 'index')
+        chain(action: 'index', model: [unlockedSupporter: supporter])
     }
 
 }
