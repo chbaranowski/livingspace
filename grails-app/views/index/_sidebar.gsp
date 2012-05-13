@@ -7,11 +7,6 @@
 
         <g:if test="${signerCount > 0}">
             <table class="table">
-                <thead>
-                <tr>
-                    <th>Öffentliche Unterzeichner</th>
-                </tr>
-                </thead>
                 <tbody>
                 <g:each in="${publicSignerList}" status="index" var="signer">
                     <tr>
@@ -37,11 +32,6 @@
 
         <g:if test="${supporterCount > 0}">
             <table class="table">
-                <thead>
-                <tr>
-                    <th>Öffentliche Unterstützer</th>
-                </tr>
-                </thead>
                 <tbody>
                 <g:each in="${publicSupporterList}" status="index" var="supporter">
                     <tr>

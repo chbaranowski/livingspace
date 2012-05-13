@@ -23,7 +23,7 @@ window.fbAsyncInit = function ()
         cookie:true, // enable cookies to allow the server to access the session
         xfbml:true  // parse XFBML
     });
-
+    $('.fb-login').show()
     // listen for and handle auth.statusChange events
     FB.Event.subscribe('auth.statusChange', function (response)
     {
@@ -47,6 +47,4 @@ window.fbAsyncInit = function ()
             $('.fb-login').show()
         }
     });
-
-    $('.fb-login').show()
 }
