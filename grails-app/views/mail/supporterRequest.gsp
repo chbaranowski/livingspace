@@ -12,11 +12,11 @@
         <td>${supporter.email}</td>
     </tr>
 </table>
-<a href="http://localhost:8080/livingspace/supporter/show/${supporter.id}">mehr</a>
+<a href="http://www.wohnraum-kn.de/supporter/show/${supporter.id}">mehr</a>
 
 <h3>Freischalten</h3>
 <p>
-    <a href="http://localhost:8080/livingspace/admin/unlockSupporter/${supporter.id}">Freischalten</a>
+    <a href="http://www.wohnraum-kn.de/admin/unlockSupporter/${supporter.id}">Freischalten</a>
 </p>
 
 </body>

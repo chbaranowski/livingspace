@@ -33,7 +33,7 @@ grails.project.dependency.resolution = {
     dependencies {
         // specify dependencies here under either 'build', 'compile', 'runtime', 'test' or 'provided' scopes eg.
 
-        // runtime 'mysql:mysql-connector-java:5.1.16'
+        runtime 'mysql:mysql-connector-java:5.1.16'
     }
 
     plugins {
@@ -46,6 +46,7 @@ grails.project.dependency.resolution = {
         runtime ":mail:1.0"
         runtime ":spring-security-ui:0.2"
         runtime ":famfamfam:1.0.1"
+
         // Uncomment these (or add new ones) to enable additional resources capabilities
         //runtime ":zipped-resources:1.0"
         //runtime ":cached-resources:1.0"
@@ -53,5 +54,6 @@ grails.project.dependency.resolution = {
 
         build   ":tomcat:$grailsVersion"
         compile ":spring-security-core:1.2.7.1"
+
     }
 }

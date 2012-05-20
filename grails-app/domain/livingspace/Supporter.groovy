@@ -1,6 +1,6 @@
 package livingspace
 
-class Supporter
+class Supporter implements Serializable
 {
 
     String name

@@ -87,6 +87,10 @@
         <table class="table table-striped">
             <tbody>
             <tr>
+                <td><strong>Elternteile berufstätig?</strong></td>
+                <td>${signer.working ? 'keine Angaben' : 'Ja'}</td>
+            </tr>
+            <tr>
                 <td><strong>Anzahl Kinder</strong></td>
                 <td>${signer.numberOfChildren == 0 ? 'keine Angaben' : signer.numberOfChildren}</td>
             </tr>
@@ -105,6 +109,7 @@
             <g:hiddenField name="publicSigner" value="${signer.publicSigner}"/>
             <g:hiddenField name="description" value="${signer.description}"/>
             <g:hiddenField name="numberOfChildren" value="${signer.numberOfChildren}"/>
+
             <g:submitButton name="Unterzeichnen" class="btn btn-large btn-success"/>
         </g:form>
     </div>

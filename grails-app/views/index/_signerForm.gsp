@@ -32,6 +32,24 @@
                             Wir geben die E-Mail nicht an dritte weiter."/>
     </bootstrap:controlGroup>
 
+    <div class="control-group">
+        <div class="controls">
+            <label class="checkbox" for="working">
+                <g:checkBox
+                        class="popover-info"
+                        name="working"
+                        value="${signer ? signer.working : false}"
+                        data-original-title="Angaben zur Berufstätig ist Optional"
+                        data-content="Wird der Hacken nicht gesetzt wird deine Eingabe als keine Angabe gewertet.
+                                     Möchtest Du uns mitteilen dass beide Elterteile arbeiten, kannst Du diesen Punkt
+                                     ankreuzen. Die Angabe wird intern genutzt um die Situation der Unterzeichner besser
+                                     einschätzen zu können."
+                />
+                Sind beide Elternteile berufstätig?
+            </label>
+        </div>
+    </div>
+
     <bootstrap:controlGroup bean="${signer}" name="numberOfChildren" label="Anzahl Kinder">
         <g:select class="popover-info"
                   name="numberOfChildren" from="${1..6}" value="${signer?.numberOfChildren}"

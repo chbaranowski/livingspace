@@ -28,7 +28,7 @@
 
 <div class="span6">
     <div class="hero-unit">
-        <h1>Untertützer</h1>
+        <h1>Unterstützer</h1>
 
         <p>Insgesamt wird die Initiative von <strong>${supporterCount}</strong> Personen oder Firmen unterstützt.
         Bisher haben öffentlich die folgenden Untertützer die Initiative unterzeichnet.</p>

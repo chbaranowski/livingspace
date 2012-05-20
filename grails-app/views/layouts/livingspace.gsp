@@ -54,5 +54,10 @@
 <g:javascript library="bootstrap"/>
 <g:javascript library="application"/>
 <r:layoutResources/>
+<div class="container-fluid">
+    <div class="row-fluid">
+        <p>Version : ${grailsApplication.metadata['app.version']}</p>
+    </div>
+</div>
 </body>
 </html>

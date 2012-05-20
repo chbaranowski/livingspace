@@ -1,6 +1,6 @@
 package livingspace
 
-class Signer
+class Signer implements Serializable
 {
 
     String name
@@ -12,6 +12,8 @@ class Signer
     String description
 
     int numberOfChildren
+
+    Boolean working = false
 
     Boolean unlocked = false
 
@@ -28,5 +30,6 @@ class Signer
         description maxSize: 2048, blank: true
 
         numberOfChildren blank: true
+
     }
 }

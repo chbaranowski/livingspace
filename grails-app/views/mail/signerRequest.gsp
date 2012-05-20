@@ -12,11 +12,11 @@
         <td>${signer.email}</td>
     </tr>
 </table>
-<a href="http://localhost:8080/livingspace/signer/show/${signer.id}">mehr</a>
+<a href="http://www.wohnraum-kn.de/signer/show/${signer.id}">mehr</a>
 
 <h3>Freischalten</h3>
 <p>
-    <a href="http://localhost:8080/livingspace/admin/unlockSigner/${signer.id}">Freischalten</a>
+    <a href="http://www.wohnraum-kn.de/admin/unlockSigner/${signer.id}">Freischalten</a>
 </p>
 
 </body>

@@ -41,28 +41,23 @@
     </h1>
 
     <div class="well-large">
-        <h1>Wir fordern</h1>
+        <h2>Wir sind eine Familie</h2>
+        <p>Wir haben oder wünschen uns Kinder.</p>
 
-        <h2>Genügend bezahlbaren Wohnraum!</h2>
+        <h2>Leben und arbeiten in Konstanz</h2>
+        <p>Unser Lebensmittelpunkt und Arbeitsstelle ist in Konstanz und Umgebung.</p>
 
-        <h3>Eine bedürfnisorientierte Stadtplanung, frei von kapitalistischer bzw. wirtschaftlicher Verwertungslogik!</h3>
+        <h2>Konstanz ist unsere Heimat</h2>
+        <p>Unsere Heimat ist hier und hier möchten wir bleiben.</p>
+    </div>
+    <div class="well-large">
 
-        <h2>Konstanz muss bewohnbar werden – für alle!</h2>
+        <h2>Wir brauchen Wohnraum für Familien in Konstanz</h2>
+        <p> Für eine Zukunft für die Stadt Konstanz muss genügend passender Wohnraum und Lebensraum
+            für Kindern und Familien vorhanden sein. Eine langfristige Zukunft für Kinder in Konstanz...</p>
 
-        <h3>Basisdemokratische Entscheidungsfindung bei stadtplanerischen Belangen!</h3>
-
-        <h2>Genügend bezahlbaren Wohnraum!</h2>
-
-        <h3>Eine bedürfnisorientierte Stadtplanung, frei von kapitalistischer bzw. wirtschaftlicher Verwertungslogik!</h3>
-
-        <h2>Konstanz muss bewohnbar werden – für alle!</h2>
-
-        <h3>Basisdemokratische Entscheidungsfindung bei stadtplanerischen Belangen!</h3>
     </div>
     <script type="text/javascript" src="js/facebook.js"></script>
-
-
-
 
     <g:render template="tabs"></g:render>
 
