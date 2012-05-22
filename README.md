@@ -13,4 +13,4 @@ To run the application:
 
  2. Run the web app by run-app
 
- 3. Invoke the application under http://localhost:8080/livingspace
+ 3. Invoke the application under http://localhost:8080/
