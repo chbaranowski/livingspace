@@ -51,6 +51,14 @@ class IndexController
         }
     }
 
+    def cancelConfirmSignature()
+    {
+        def model = getDefaultModel()
+        model.tabs.signerTab.markAsActive()
+        model.signer = new Signer(params)
+        chain(action: "index", model: model)
+    }
+
     def sign()
     {
         def signer = new Signer(params)
@@ -91,6 +99,14 @@ class IndexController
         {
             redirect(action: 'index')
         }
+    }
+
+    def cancelConfirmSupport()
+    {
+        def model = getDefaultModel()
+        model.tabs.supporterTab.markAsActive()
+        model.supporter = new Supporter(params)
+        chain(action: "index", model: model)
     }
 
     def support()

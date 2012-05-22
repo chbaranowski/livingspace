@@ -94,12 +94,13 @@
     </div>
 
     <div class="modal-footer">
-        <g:form action="support" method="post">
+        <g:form controller="index" method="post">
             <g:hiddenField name="name" value="${supporter.name}" />
             <g:hiddenField name="email" value="${supporter.email}" />
             <g:hiddenField name="publicSupporter" value="${supporter.publicSupporter}" />
             <g:hiddenField name="description"  value="${supporter.description}" />
-            <g:submitButton name="Unterstützen" class="btn btn-large btn-success"/>
+            <g:actionSubmit action="cancelConfirmSupport" value="Zurück" class="btn btn-large btn-danger"/>
+            <g:actionSubmit action="support" value="Unterstützen" class="btn btn-large btn-success"/>
         </g:form>
     </div>
 </div>

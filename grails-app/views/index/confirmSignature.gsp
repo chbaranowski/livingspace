@@ -87,12 +87,12 @@
         <table class="table table-striped">
             <tbody>
             <tr>
-                <td><strong>Elternteile berufstätig?</strong></td>
-                <td>${signer.working ? 'keine Angaben' : 'Ja'}</td>
-            </tr>
-            <tr>
                 <td><strong>Anzahl Kinder</strong></td>
                 <td>${signer.numberOfChildren == 0 ? 'keine Angaben' : signer.numberOfChildren}</td>
+            </tr>
+            <tr>
+                <td><strong>Beide Elternteile berufstätig</strong></td>
+                <td>${signer.working == null ? 'keine Angaben' : signer.working ? 'Ja' : 'Nein'}</td>
             </tr>
             <tr>
                 <td><strong>Beschreibung <br/> der Wohnsituation</strong></td>
@@ -103,15 +103,18 @@
     </div>
 
     <div class="modal-footer">
-        <g:form controller="index" action="sign" method="post">
+
+        <g:form controller="index" method="post">
             <g:hiddenField name="name" value="${signer.name}"/>
             <g:hiddenField name="email" value="${signer.email}"/>
             <g:hiddenField name="publicSigner" value="${signer.publicSigner}"/>
             <g:hiddenField name="description" value="${signer.description}"/>
             <g:hiddenField name="numberOfChildren" value="${signer.numberOfChildren}"/>
-
-            <g:submitButton name="Unterzeichnen" class="btn btn-large btn-success"/>
+            <g:hiddenField name="working" value="${signer.working}"/>
+            <g:actionSubmit action="cancelConfirmSignature"  value="Zurück" class="btn btn-large btn-danger"/>
+            <g:actionSubmit action="sign" value="Unterzeichnen" class="btn btn-large btn-success"/>
         </g:form>
+
     </div>
 </div>
 

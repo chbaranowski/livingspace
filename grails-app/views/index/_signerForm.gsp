@@ -3,7 +3,7 @@
     <div class="control-group fb-login" style="display: none;">
         <div class="controls">
             <fb:login-button class="popover-info" data-original-title="Tippen sparen Daten aus Facebook Profile"
-                              data-content="Wenn Du möchtest kannst Du Name und E-Mail für die Unterschrift aus deinem Facebook Profile übernehmen.">
+                             data-content="Wenn Du möchtest kannst Du Name und E-Mail für die Unterschrift aus deinem Facebook Profile übernehmen.">
                 Daten übernehmen</fb:login-button>
         </div>
     </div>
@@ -32,24 +32,6 @@
                             Wir geben die E-Mail nicht an dritte weiter."/>
     </bootstrap:controlGroup>
 
-    <div class="control-group">
-        <div class="controls">
-            <label class="checkbox" for="working">
-                <g:checkBox
-                        class="popover-info"
-                        name="working"
-                        value="${signer ? signer.working : false}"
-                        data-original-title="Angaben zur Berufstätig ist Optional"
-                        data-content="Wird der Hacken nicht gesetzt wird deine Eingabe als keine Angabe gewertet.
-                                     Möchtest Du uns mitteilen dass beide Elterteile arbeiten, kannst Du diesen Punkt
-                                     ankreuzen. Die Angabe wird intern genutzt um die Situation der Unterzeichner besser
-                                     einschätzen zu können."
-                />
-                Sind beide Elternteile berufstätig?
-            </label>
-        </div>
-    </div>
-
     <bootstrap:controlGroup bean="${signer}" name="numberOfChildren" label="Anzahl Kinder">
         <g:select class="popover-info"
                   name="numberOfChildren" from="${1..6}" value="${signer?.numberOfChildren}"
@@ -58,6 +40,34 @@
                   data-content="Die Angabe zur Anzahl der Kinder dient uns um die Wohnungsmarktsituation in Konstanz besser einschätzen zu können.
                         Also wie viele Familien mit wie viel Personen haben keinen adäquaten Wohnraum. "/>
     </bootstrap:controlGroup>
+
+    <div class="control-group">
+        <label class="control-label">
+            Seit ihr beide berufstätig?
+        </label>
+
+        <div class="controls">
+
+            <label class="radio">
+                <input type="radio"  name="working" value="${null}"  ${signer == null || signer.working == null ? 'checked' : ''}>
+                Keine Angabe
+            </input>
+            </label>
+            <br />
+            <label class="radio">
+                <input type="radio"  name="working" value="${false}" ${signer?.working == false ? 'checked' : ''}>
+                Es sind nicht beide Elternteile berufstätig
+            </input>
+            </label>
+            <br />
+            <label class="radio">
+                <input type="radio"  name="working" value="${true}" ${signer?.working == true ? 'checked' : ''}>
+                Beide Elternteile sind berufstätig
+            </input>
+            </label>
+
+        </div>
+    </div>
 
     <bootstrap:controlGroup bean="${signer}" name="description" label="Beschreibung Wohnungssituation">
         <g:textArea

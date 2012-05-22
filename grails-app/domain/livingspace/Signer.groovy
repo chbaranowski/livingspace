@@ -13,7 +13,7 @@ class Signer implements Serializable
 
     int numberOfChildren
 
-    Boolean working = false
+    Boolean working = null
 
     Boolean unlocked = false
 
@@ -30,6 +30,8 @@ class Signer implements Serializable
         description maxSize: 2048, blank: true
 
         numberOfChildren blank: true
+
+        working nullable: true
 
     }
 }

@@ -114,4 +114,5 @@ grails.plugins.springsecurity.interceptUrlMap = [
         '/login/**':     ['IS_AUTHENTICATED_ANONYMOUSLY'],
         '/logout/**':    ['IS_AUTHENTICATED_ANONYMOUSLY']
 ]
-
+// Run Grails application as root
+grails.app.context = "/"

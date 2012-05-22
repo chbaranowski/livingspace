@@ -49,14 +49,29 @@
 
         <h2>Konstanz ist unsere Heimat</h2>
         <p>Unsere Heimat ist hier und hier möchten wir bleiben.</p>
-    </div>
-    <div class="well-large">
 
         <h2>Wir brauchen Wohnraum für Familien in Konstanz</h2>
         <p> Für eine Zukunft für die Stadt Konstanz muss genügend passender Wohnraum und Lebensraum
-            für Kindern und Familien vorhanden sein. Eine langfristige Zukunft für Kinder in Konstanz...</p>
-
+            für Kindern und Familien vorhanden sein. Eine langfristige Zukunft für Kinder in Konstanz...
+            TODO - Text
+        </p>
     </div>
+
+    <div class="well-large">
+        <h2>Was wollen wir erreichen?</h2>
+        <p>
+            TODO Beschreibung unserer Ziele.
+        </p>
+        <h2>Wer sind wir?</h2>
+        <p>
+            TODO Beschreibung wer steckt hinter der Intiative
+        </p>
+        <h2>Unterzeichner und Unterstützer</h2>
+        <p>
+            TODO Beschreibung wer steckt hinter der Intiative
+        </p>
+    </div>
+
     <script type="text/javascript" src="js/facebook.js"></script>
 
     <g:render template="tabs"></g:render>
